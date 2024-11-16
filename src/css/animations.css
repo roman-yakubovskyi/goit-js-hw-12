@@ -16,3 +16,13 @@
     transform: translateX(-50%) translateY(100%) scale(1);
   }
 }
+
+@keyframes rotationBack {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(-360deg);
+  }
+}
